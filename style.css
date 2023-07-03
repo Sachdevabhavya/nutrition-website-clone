@@ -1,0 +1,961 @@
+@font-face {
+    font-family: "hello";
+    src: url(Lato-Regular.ttf) format(Lato-Regular);
+}
+
+@font-face {
+    font-family: "marco";
+    src: url(Marcellus-Regular.ttf) format(Marcellus-Regular);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: hello;
+}
+
+a{
+    color: white;
+    font-size: 12px;
+    font-family: hello;
+    padding: 0 0 9px;
+}
+
+a.main-img{
+    margin-bottom: -40px;
+}
+
+img.logo{
+    height: 50px;
+    margin-top: -200px;
+    margin-bottom: 50px;
+}
+
+img{
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.logo{
+    width: 50vw;
+}
+
+/* .main-img{
+    width: 250px;
+    height: 150px;
+    align-items: center;
+} */
+
+.main-first{
+    background-image: url(Assets/hero-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: relative;
+    height: 483px;
+    max-width: 320px;
+}
+
+li.element{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.nav-side::after{
+    content: "---------";
+    color: white;
+}
+
+div.container{
+    padding: 0 0 9px;
+}
+
+a.nav-link{
+    visibility: hidden;
+}
+
+nav{
+    display: grid;
+    column-gap: 20px;
+}
+
+header.main-header{
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+a.nav-side{
+    margin-top: 80px;
+    margin-bottom: -150px;
+    padding-bottom: -100px;
+}
+
+a.nav-side-2{
+    margin-top: -100px;
+    padding-top: -120px;
+}
+
+li.element{
+    margin-bottom: -100px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    column-gap: 50px;
+}
+
+p.description{
+    color: white;
+    font-size: 15px;
+    font-family: hello;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+h1.title{
+    color: white;
+    font-size: 36px;
+    font-family: marco;
+    text-align: center;
+    position: relative;
+    font-weight: 100;
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+span.newh{
+    margin-left: 28px;
+}
+
+div.contents{
+    margin: 0 32px;
+    padding: 40px 0;
+    font-family: hello;
+}
+
+p.newp{
+    color: #759279;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 4px;
+}
+
+div.new-title{
+    padding: 0 0 30px;
+}
+
+p.newp::after{
+    content: "________";
+    letter-spacing: 0;
+}
+
+h3.heading{
+    color: #04211f;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: marco;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+p.new-description{
+    color: #909a93;
+    font-family: hello;
+    line-height: 26px;
+    font-size: 16px;
+    margin: 0 0 40px;
+}
+
+div.happening-contain{
+    padding: 0 0 20px;
+}
+
+a.contact{
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #000000;
+    padding: 0 0 9px;
+}
+
+a.contact::after{
+    content: "----------------------------------------";
+    letter-spacing: 0;
+}
+
+div.image{
+    padding: 0 0 25px;
+}
+
+div.logos{
+    padding: 0 0 50px;
+}
+
+img.pics{
+    width: 40%;
+    height: 80%;
+    margin: 0 10px 20px;
+} 
+
+p.newp-1{
+    color: #759279;
+    font-size: 13px;
+    letter-spacing: 5px;
+    padding: 0 0 30px;
+}
+
+p.newp-1::after{
+    content: "________";
+    letter-spacing: 0;
+}
+
+h3.heading-1{
+    color: #04211f;
+    font-size: 30px;
+    margin: 0 0 30px;
+    font-family: hello;
+    font-weight: 100;
+    line-height: 35px;
+}
+
+p.describe{
+    color: #909a93;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+div.ending{
+    margin: 0 0 40px;
+}
+
+div.button{
+    width: 100%;
+    text-align: center;
+    border: 0;
+    background-color: #90c497;
+    margin: 0 0 30px;
+    cursor: pointer;
+}
+
+a.buy:hover{
+    color: white;
+}
+
+a.buy{
+    color: #04211f;
+    font-size: 12px;
+    font-family: hello;
+    padding: 16px 21px;
+    letter-spacing: 3px;
+}
+
+a.download{
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+
+a.download::after{
+    content: "-----------------------------------------------";
+    letter-spacing: 0;
+}
+
+img.book{
+    padding: 0 0 40px;
+}
+
+div.step{
+    background-image: url(Assets/veggies.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 264px;
+    background-position: 50%;
+    margin-left: -32px;
+}
+
+h2.white-heading{
+    color: white;
+    font-weight: 50;
+    font-family: hello;
+    font-size: 36px;
+    line-height: 46px;
+    padding: 35px 30px;
+}
+
+div.price-title{
+    text-align: center;
+}
+
+section.price{
+    padding: 40px;
+}
+
+p.overheading{
+    color: #909a93;
+    font-size: 11px;
+    font-family: hello;
+    margin: 0 0 20px;
+    letter-spacing: 3px;
+}
+
+h3.plan{
+    color: #04211f;
+    font-size: 30px;
+    font-family: marco;
+    font-weight: 100;
+    line-height: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 0 0 30px;
+}
+
+div.individual{
+    box-sizing: border-box;
+    height: 401px;
+    position: relative;
+    background-color: #f5f5f5;
+    text-align: left;
+    padding: 30px 30px;
+    margin: 0 0 40px;
+}
+
+p.category{
+    color: #909a93;
+    font-size: 12px;
+    font-family: hello;
+    letter-spacing: 3px;
+    margin:0 0 20px;
+}
+
+h3.money{
+    color: #04211f;
+    font-size: 30px;
+    font-family: marco;
+    margin: 0 0 30px;
+}
+
+ul.newlist{
+    margin: 0 0 50px 15px;
+}
+
+li.list-item{
+    color: #909a93;
+    font-size: 15px;
+    margin: 0 0 20px;
+}
+
+a.try-link{
+    color: #04211f;
+    font-size: 12px;
+    font-family: hello;
+    padding: 0 0 9px;
+    letter-spacing: 3px;
+}
+
+a.try-link::after{
+    content: "------------------------------";
+    letter-spacing: 0;
+}
+
+img.cup{
+    padding: 0 0 40px;
+}
+
+div.newlogo{
+    text-align: center;
+}
+
+img.comma{
+    margin: 0 0 40px;
+}
+
+h4.abouthead{
+    color: #04211f;
+    font-size: 24px;
+    font-family: marco;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+p.aboutdescribe{
+    color: #04211f;
+    font-size: 16px;
+    font-family: hello;
+    margin: 0 0 40px;
+    text-align: center;
+}
+
+p.author{
+    color: #909a93;
+    font-size: 12px;
+    font-family: hello;
+    margin: 0 0 40px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+div.arrow{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+
+div.booking-details{
+    background-color: #f5f5f5;
+    padding: 40px 40px;
+    margin: 0 0 20px;
+}
+
+p.detail-head{
+    text-align: center;
+    color: #909a93;
+    font-size: 12px;
+    font-family: hello;
+    margin: 0 0 20px;
+    letter-spacing: 3px;
+}
+
+h3.aboutbooking{
+    color: #04211f;
+    font-size: 30px;
+    font-family: marco;
+    text-align: center;
+    font-weight: 100;
+    padding: 0 0 30px;
+}
+
+input.nameinput,.e-mail-input{
+    padding: 20px 30px;
+    margin: 0 0 20px;
+    background-color: #f5f5f5;
+}
+
+textarea.addtext{
+    padding: 20px 38px;
+    margin: 0 0 20px;
+    background-color: #f5f5f5;
+}
+
+div.bookbutton{
+    text-align: center;
+}
+
+button.submit{
+    padding: 16px 36px;
+    background-color: #90c497;
+    border: none;
+    cursor: pointer;
+}
+
+button.submit:hover{
+    color: white;
+}
+
+img.dish{
+    width: 25%;
+    height: 40%;
+    margin: 0 10px 20px;
+} 
+
+div.contact-details{
+    background-color: #f5f5f5;
+    padding: 30px 40px;
+    text-align: center;
+    line-height: 30px;
+}
+
+a.email{
+    color: #04211f;
+    font-size: 20px;
+    font-family: hello;
+    text-align: center;
+}
+
+a.telephone{
+    color: #04211f;
+    font-size: 20px;
+    font-family: hello;
+    text-align: center;
+}
+
+p.address{
+    color: #04211f;
+    font-size: 20px;
+    font-family: hello;
+    text-align: center;
+}
+
+img.cover{
+    height: 30vh;
+}
+
+section.foot{
+    background-image: url(Assets/footer-img.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    padding: 30px;
+}
+
+img.footlogo{
+    width: 60%;
+    margin:0 0 50px;
+}
+
+h5.footheading{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: marco;
+    margin: 0 0 15px;
+    font-weight: 100;
+}
+
+p.footpara{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: hello;
+    margin: 0 0 40px;
+    line-height: 26px;
+}
+
+a.social{
+    color: #90c497;
+    font-size: 12px;
+    font-family: hello;
+}
+
+a.social:hover{
+    color: white;
+}
+
+div.social-account{
+    padding: 0 0 20px;
+}
+
+div.timings{
+    margin: 0 0 30px;
+}
+
+h6.hour{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: marco;
+    margin: 0 0 30px;
+}
+
+li.time{
+    list-style: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: hello;
+    margin: 0 0 10px;
+}
+
+div.footcontact{
+    padding: 0 0 30px;
+}
+
+h6.contactus{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: hello;
+    margin: 0 0 30px;
+}
+
+li.add{
+    list-style: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: hello;
+    margin: 0 0 10px;
+}
+
+p.trademark{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: hello;
+    line-height: 25px;
+}
+
+@media(min-width:768px){
+    .main-first{
+        background-image: url(Assets/hero-background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: relative;
+        max-width: 768px;
+    }
+
+    .main-nav{
+        display: flex;
+        flex-direction: row;
+        padding: 20px 40px;
+        justify-content: center;
+    }
+
+    img.logo{
+        margin-bottom: -250px;
+        width: 100%;
+    }
+
+    a.nav-link{
+        margin-bottom: -10px;
+    }
+    
+    a.nav-side{
+        margin-top: -20px;
+        margin-top: 25px;
+        padding: 0 120px;
+        margin-left: -100px;
+    }
+
+    a.nav-side-2{
+        margin-left: 150px;
+        margin-top: -500px;
+    }
+
+    p.description{
+        padding-top: 50px;
+    }
+
+    h1.title{
+        font-size: 50px;
+    }
+
+    img.nutrition{
+        width: 45%;
+        float: right;
+        margin-top: -300px;
+    }
+
+    h3.heading,p.new-description{
+        width: 45%;
+    }
+
+    img.pics{
+        width: 25%;
+        margin: 0 25px;
+    }
+
+    p.newp-1,h3.heading-1,p.describe,div.button,div.happening-contain{
+        width: 40%;
+        margin-left: 380px;
+    }
+
+    img.book{
+        width: 40%;
+        margin-top: -700px;
+    }
+
+    div.happening-contain-2{
+        margin-left: 400px;
+    }
+
+    div.step{
+        background-image: url(Assets/veggies.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 768px;
+        height: 340px;
+        text-align: center;
+        padding: 60px 100px;
+    }
+
+    h2.white-heading{
+        font-size: 60px;
+    }
+
+    p.overheading{
+        font-size: 13px;
+    }
+
+    h3.plan{
+        font-size: 36px;
+    }
+
+    div.individual{
+        width: 40%;
+    }
+
+    div.pricecontainer{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    h4.abouthead{
+        font-size: 28px;
+    }
+
+    p.aboutdescribe{
+        text-align: center;
+        font-size: 16px;
+        padding: 0 120px;
+        line-height: 25px;
+    }
+
+    input.nameinput,.e-mail-input{
+        width: 40%;
+        margin: 0 20px 20px;
+    }
+
+    textarea.addtext{
+        width: 85%;
+        margin: 10px 20px;
+    }
+
+    img.dish{
+        width: 8%;
+        height: 10%;
+    }
+
+    img.cover{
+        width: 1024px;
+    }
+
+    div.contact-details{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    a.email{
+        margin: 0 200px;
+    }
+
+    h5.footheading,p.footpara,div.social-account,h6.contactus,ul.footaddress,a.num{
+        width: 30%;
+        margin-left: 400px;
+    }
+
+    div.foot-logo{
+        margin-right: 350px;
+    }
+
+    h5.footheading{
+        margin-top: -50px;
+    }
+
+    h6.contactus{
+        margin-top: -150px;
+    }
+
+    div.timings{
+        margin-right: 350px;
+    }
+}
+
+@media(min-width:1024px){
+    .main-first{
+        background-image: url(Assets/hero-background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: relative;
+        max-width: 1024px;
+        height: 717px;
+    }
+
+    p.description{
+        margin-top: 200px;
+    }
+    h1.title{
+        font-size: 70px;
+    }
+
+    p.newp,h3.heading,p.new-description{
+        width: 30%;
+    }
+
+    h3.heading{
+        font-size: 46px;
+        width: 30%;
+        margin-right: -100px;
+    }
+
+    img.nutrition{
+        margin-top: -400px;
+    }
+
+    div.happening-contain{
+        margin-left: 0;
+    }
+
+    img.pics{
+        width: 10%;
+        height: 10%;
+    }
+
+    div.book-img{
+        margin: 0 50px 50px;
+        margin-top: 150px;
+    }
+
+    div.button{
+        width: 20%;
+    }
+
+    div.happening-contain-2{
+        margin-left: 600px;
+        margin-top: -60px;
+    }
+
+    div.step{
+        width: 1024px;
+        height: 400px;
+        margin-top: -80px;
+        padding: 50px 200px;
+    }
+
+    h2.white-heading{
+        font-size: 70px;
+    }
+
+    h3.plan{
+        font-size: 46px;
+    }
+
+    div.newlogo,div.about-content{
+        width: 80%;
+        margin-left: -100px;
+    }
+
+    img.cup{
+        width: 40%;
+        float: right;
+    }
+
+    h4.abouthead{
+        font-size: 36px;
+    }
+
+    div.arrow{
+        margin-right: 500px;
+        margin-bottom: 50px;
+    }
+
+    div.contact-details{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    section.foot{
+        padding: 100px 40px;
+    }
+
+    a.email{
+        margin: 0;
+    }
+
+    h5.footheading,p.footpara,div.social-account{
+        margin-left: 200px;
+        margin-right: -200px;
+    }
+
+    div.timings{
+        margin-left: 500px;
+        margin-top: -180px;
+        width: 30%;
+    }
+
+    div.footcontact{
+        margin-left: 320px;
+        width: 40%;
+    }
+
+    p.trademark{
+        margin-top: 80px;
+        margin-bottom: -50px;
+    }
+}
+
+@media(min-width:1440px){
+    .main-first{
+        background-image: url(Assets/hero-background.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: relative;
+        max-width: 1440px;
+        height: 1004px;
+    }
+
+    p.description{
+        margin-top: 500px;
+    }
+
+    img.pics{
+        width: 12%;
+        height: 20%;
+    }
+
+    p.newp-1,h3.heading-1,p.describe,div.button,div.happening-contain{
+        width: 50%;
+        margin-left: 500px;
+    }
+
+    p.describe{
+        font-size: 25px;
+    }
+
+    div.book-img{
+        margin-top: 200px;
+    }
+
+    img.book{
+        height: 500px;
+    }
+
+    a.download{
+        margin-left: 350px;
+    }
+
+    div.button{
+        width: 30%;
+    }
+
+    div.step{
+        width: 1440px;
+        height: 600px;
+        margin-top: -80px;
+        padding: 150px 200px;
+    }
+
+    h2.white-heading{
+        font-size: 100px;
+        line-height: 100px;
+    }
+
+    div.contact-details{
+        gap: 200px;
+    }
+
+    a.email,a.telephone,p.address{
+        font-size: 20px;
+    }
+
+    img.cover{
+        width: 1440px;
+        height: 502px;
+    }
+
+    div.timings{
+        margin-left: 700px;
+    }
+
+    div.footcontact{
+        margin-left: 500px;
+        width: 40%;
+    }
+}
